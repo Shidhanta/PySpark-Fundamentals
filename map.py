@@ -1,5 +1,8 @@
 from pyspark.sql import SparkSession
 
+# Map -> RDD transformation used to apply a transformation function on 
+# every element of a dataframe/RDD and returns a new RDD
+
 if __name__ =="__main__":
         
         spark =  SparkSession \
